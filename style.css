@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+    overflow: hidden;
+    color: #fff;
+}
+
+.game-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1)8;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#rock {
+    background: #e74c3c;
+    color: #fff;
+}
+
+#paper {
+    background: #f1c40f;
+    color: #fff;
+}
+
+#scissors {
+    background: #2ecc71;
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#play-again {
+    background: #3498db;
+    color: #fff;
+    display: none;
+    margin-top: 20px;
+    align-self: center;
+}
+
+#play-again:hover {
+    background: #2980b9;
+}
+
+.results p {
+    margin-top: 10px 0;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#play-again-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
